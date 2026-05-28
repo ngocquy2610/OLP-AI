@@ -7,7 +7,7 @@ from flask import Flask, jsonify, request
 from google import genai
 
 
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 app = Flask(__name__)
 
